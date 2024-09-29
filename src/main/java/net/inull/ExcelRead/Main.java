@@ -51,10 +51,10 @@ public class Main
   public static void ReadXLSXFile() throws IOException
   {
     // 流输入
-    InputStream ExcelFileToRead = new FileInputStream("D:\\workspaces\\java\\console\\ExcelRead\\file.xlsx");
+    InputStream inputExcelFile = new FileInputStream("D:\\workspaces\\java\\console\\ExcelRead\\file.xlsx");
 
     // HSSFWorkbook workbook = new HSSFWorkbook(ExcelFileToRead);
-    XSSFWorkbook workbook = new XSSFWorkbook(ExcelFileToRead);
+    XSSFWorkbook workbook = new XSSFWorkbook(inputExcelFile);
 
     // HSSFSheet sheet = workbook.getSheetAt(0);
     XSSFSheet sheet = workbook.getSheetAt(0);

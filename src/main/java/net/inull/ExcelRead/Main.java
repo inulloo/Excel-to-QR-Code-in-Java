@@ -50,7 +50,7 @@ public class Main
 
   public static void ReadXLSXFile() throws IOException
   {
-  // 流输入
+    // 流输入
     InputStream ExcelFileToRead = new FileInputStream("D:\\workspaces\\java\\console\\ExcelRead\\file.xlsx");
 
     // HSSFWorkbook workbook = new HSSFWorkbook(ExcelFileToRead);
@@ -91,7 +91,6 @@ public class Main
         WriteRCode(strPath + strFilename + ".png", BarcodeFormat.QR_CODE, text, width, height);
       }
 
-//
 //      for (Cell cell : row)
 //      {
 //        switch (cell.getCellType())

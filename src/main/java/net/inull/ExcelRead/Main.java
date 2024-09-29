@@ -59,15 +59,15 @@ public class Main
     // HSSFSheet sheet = workbook.getSheetAt(0);
     XSSFSheet sheet = workbook.getSheetAt(0);
 
-    Iterator<Row> it = sheet.iterator();
-
-    while (it.hasNext())
-    {
-      Row row = it.next();
-      Cell cell = row.getCell(1);
-      String strFilename = cell.getStringCellValue();
-      System.out.println(strFilename);
-    }
+//    demo 
+//    Iterator<Row> it = sheet.iterator();
+//    while (it.hasNext())
+//    {
+//      Row row = it.next();
+//      Cell cell = row.getCell(1);
+//      String strFilename = cell.getStringCellValue();
+//      System.out.println(strFilename);
+//    }
 
     // 遍历指定 sheet 的所有 row
     for (Row row : sheet)

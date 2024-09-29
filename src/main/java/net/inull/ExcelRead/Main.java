@@ -87,7 +87,7 @@ public class Main
         int height = 300;
 
         String strPath = "D:\\workspaces\\java\\console\\ExcelRead\\out\\";
-        // 写 二维码
+        // 写出二维码
         WriteRCode(strPath + strFilename + ".png", BarcodeFormat.QR_CODE, text, width, height);
       }
 
